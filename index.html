@@ -2,17 +2,79 @@
 <html>
         <head>
             <title>Brian's Amazing Website</title>
+            <style>
+                body {
+                    background: rgb(125, 198, 205);
+                    color: rgb(45, 45, 45);
+                    padding: 10px;
+                    font-family: arial;
+                }
+                #all-contents {
+                  max-width: 800px;
+                    margin: auto;
+                }
+             
+                /* navigation menu */
+                nav {
+                    background: rgb(239, 80, 41);
+                   margin: 0 auto;
+                    display: flex;
+                    padding: 10px;
+                }
+                h1 {
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    flex: 1;
+                    margin: 0;
+                }
+                #nav-ul {
+                    list-style-image: none;
+                }
+                .nav-li {
+                    display: inline-block;
+                    padding: 0 10px;
+                }
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+             
+                /* main container area beneath menu */
+                main {
+                    background: rgb(245, 238, 219);
+                    display: flex;
+                }
+                .sidebar {
+                    margin-right: 25px;
+                    padding: 10px;
+                }
+                .sidebar-img {
+                    width: 200px;
+                }
+                .content {
+                    flex: 1;
+                    padding: 15px;
+                }
+                #interests {
+                    border: 4px silver ridge;
+                    padding: 8px;
+                }
+                h2, h3 {
+                    margin: 0px;
+                }
+             </style>
         </head>
         
         <body>
             <div>
                 <Nav>
                     <h1>Brian's Website</h1>
-                    <ul>
-                        <li>
+                    <ul id="nav-ul">
+                        <li class="nav-li">
                           <a href="index.html"> Home </a>
                         </li>
-                        <li>
+                        <li class="nav-li"></li
                           <a href="portfolio.html"> Portfolio </a>
                         </li>
                     </ul>
@@ -21,13 +83,13 @@
 
                 <Main>
                      <!-- Sidebar section -->
-                    <div>
-                        <img src="https://chi01pap001files.storage.live.com/y4mcyEM_I-M9oFqe7A0n34SWv6IXVrtOuj-V2oWc40OwOxffRYTK-hMEdRZVTv3mX8v9gKsBzFzTUhMW-yr_RysIwjRTCosHKQ6bSdfPr_O9nHFcxqsjMn-Iz6nGR0Nl-1iBJyH38ZvvVL-wQP999pFfwkPynLUmuPXE1dHY0TdW6zREvEEeSJ01Dy-jtK-aUgc?width=192&height=256&cropmode=none">
+                    <div class "sidebar"
+                        <img class "sidebar-img" src="https://chi01pap001files.storage.live.com/y4mcyEM_I-M9oFqe7A0n34SWv6IXVrtOuj-V2oWc40OwOxffRYTK-hMEdRZVTv3mX8v9gKsBzFzTUhMW-yr_RysIwjRTCosHKQ6bSdfPr_O9nHFcxqsjMn-Iz6nGR0Nl-1iBJyH38ZvvVL-wQP999pFfwkPynLUmuPXE1dHY0TdW6zREvEEeSJ01Dy-jtK-aUgc?width=192&height=256&cropmode=none">
     
                      </div>
 
                     <!-- Content section -->
-                     <div>
+                     <div id="all-content"
                          <h2></h2>
                          <p></p>
                          <!-- Interests section -->

@@ -4,8 +4,8 @@
             <title>Brian's Amazing Website</title>
             <style>
                 body {
-                    background: rgb(125, 198, 205);
-                    color: rgb(45, 45, 45);
+                    background: rgb(163, 230, 213);
+                    color: rgb(0, 163, 0);
                     padding: 10px;
                     font-family: arial;
                 }
@@ -16,15 +16,17 @@
              
                 /* navigation menu */
                 nav {
-                    background: rgb(239, 80, 41);
-                   margin: 0 auto;
+                    background: rgb(236, 239, 41);
+                   margin: 0 auto; margin-bottom: 20px;
                     display: flex;
                     padding: 10px;
+                    border: 2px solid red;
+  border-radius: 25px;
                 }
                 h1 {
                     display: flex;
                     align-items: center;
-                    color: white;
+                    color: rgb(250, 0, 0);
                     flex: 1;
                     margin: 0;
                 }
@@ -42,7 +44,7 @@
              
                 /* main container area beneath menu */
                 main {
-                    background: rgb(245, 238, 219);
+                    background: rgb(0, 0, 2);
                     display: flex;
                 }
                 .sidebar {
@@ -67,7 +69,7 @@
         </head>
         
         <body>
-            <div>
+            <div id = "all-contents">
                 <Nav>
                     <h1>Brian's Website</h1>
                     <ul id="nav-ul">
@@ -82,18 +84,21 @@
                 </Nav>
 
                 <Main>
+
                      <!-- Sidebar section -->
                     <div class "sidebar"
-                        <img class "sidebar-img" src="https://chi01pap001files.storage.live.com/y4mcyEM_I-M9oFqe7A0n34SWv6IXVrtOuj-V2oWc40OwOxffRYTK-hMEdRZVTv3mX8v9gKsBzFzTUhMW-yr_RysIwjRTCosHKQ6bSdfPr_O9nHFcxqsjMn-Iz6nGR0Nl-1iBJyH38ZvvVL-wQP999pFfwkPynLUmuPXE1dHY0TdW6zREvEEeSJ01Dy-jtK-aUgc?width=192&height=256&cropmode=none">
+                        <img class "sidebar-img"  src="https://chi01pap001files.storage.live.com/y4mcyEM_I-M9oFqe7A0n34SWv6IXVrtOuj-V2oWc40OwOxffRYTK-hMEdRZVTv3mX8v9gKsBzFzTUhMW-yr_RysIwjRTCosHKQ6bSdfPr_O9nHFcxqsjMn-Iz6nGR0Nl-1iBJyH38ZvvVL-wQP999pFfwkPynLUmuPXE1dHY0TdW6zREvEEeSJ01Dy-jtK-aUgc?width=192&height=256&cropmode=none">
     
                      </div>
 
                     <!-- Content section -->
-                     <div id="all-content"
+                     <div class = "content">
                          <h2></h2>
                          <p></p>
-                         <!-- Interests section -->
-                         <div>
+                     </div>
+                         <!-- Interests section --> 
+                    <div
+                         <div id="interests">
                              <h3>Interests</h3>
                              <ul>
                                 <li>Music</li>
